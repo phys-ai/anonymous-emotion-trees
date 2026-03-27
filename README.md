@@ -1,5 +1,5 @@
-## Additional Experimental Results for Rebuttal
-
+## Additional Experimental Results (Rebuttal)
+This section provides additional empirical evidence to address the reviewers' inquiries regarding model generalizability, robustness, and real-world dataset validity.
 
 ### DeepSeek-R1 Distilled Models
 
