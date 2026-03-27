@@ -1,8 +1,6 @@
 ## Additional Experimental Results for Rebuttal
 
 
----
-
 ### DeepSeek-R1 Distilled Models
 
 <p align="center">
@@ -30,7 +28,8 @@ Each node represents an emotion and is colored according to groups of emotions k
 </p>
 
 **Caption:**  
-Sensitivity to prompting in hierarchical emotion clustering. We compare emotion trees produced when the instruction is changed from ``the emotion in this sentence is'' to ``the sentiment in this sentence is.'' Across both models, similar emotions consistently cluster together, indicating robustness to prompt wording. The larger model, Llama 70B (b), produces deeper and more fine-grained hierarchies than the smaller Llama 8B (a), reflecting its greater representational capacity.
+Sensitivity to prompting in hierarchical emotion clustering. We compare emotion trees produced when the instruction is changed from ``the emotion in this sentence is'' to ``the sentiment in this sentence is.'' 
+Across both models, similar emotions consistently cluster together, indicating robustness to prompt wording. The larger model, Llama 70B (b), produces deeper and more fine-grained hierarchies than the smaller Llama 8B (a), reflecting its greater representational capacity.
 
 ---
 
