@@ -3,7 +3,7 @@ This section provides additional empirical evidence to address the reviewers' in
 
 ---
 
-### Architecture Generalization
+### Generalizability Across Model Architectures
 
 To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extended our analysis to DeepSeek-R1 (distilled variants).
 
@@ -22,7 +22,7 @@ Each node represents an emotion and is colored according to groups of emotions k
 
 ---
 
-### Robustness: Sensitivity to Prompting
+### Sensitivity to Prompting Strategies
 We addressed the concern regarding lexical sensitivity by comparing the stability of hierarchies when the core instruction is varied.
 
 <b>(a) Llama 8B</b><br>
