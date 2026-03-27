@@ -5,7 +5,7 @@ This section provides additional empirical evidence to address the reviewers' in
 
 ### Generalizability Across Model Architectures
 
-To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extended our analysis to DeepSeek-R1 (distilled variants).
+To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extended our analysis to **DeepSeek-R1** distilled variants. 
 
 <b>(a) Llama 70B variant</b><br>
 <p align="center">
@@ -41,7 +41,7 @@ Across both models, similar emotions consistently cluster together, indicating r
 ---
 
 ### GoEmotions Dataset
-To address the concern about "synthetic data circularity", we replicated our experiments using the GoEmotions real-world human-annotated dataset.
+We replicated our experiments using real-world human-annotated dataset: [GoEmotions Dataset](https://github.com/google-research/google-research/tree/master/goemotions) (Demszky et al., 2020).
 
 <b>(a) Llama 8B</b><br>
 <p align="center">
