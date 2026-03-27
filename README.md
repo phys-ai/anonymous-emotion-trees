@@ -1,7 +1,11 @@
 ## Additional Experimental Results (Rebuttal)
 This section provides additional empirical evidence to address the reviewers' inquiries regarding model generalizability, robustness, and real-world dataset validity.
 
-### DeepSeek-R1 Distilled Models
+---
+
+### Architecture Generalization
+
+To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extended our analysis to DeepSeek-R1 (distilled variants).
 
 <b>(a) Llama 70B variant</b><br>
 <p align="center">
@@ -18,7 +22,8 @@ Each node represents an emotion and is colored according to groups of emotions k
 
 ---
 
-### Sensitivity to Prompting
+### Robustness: Sensitivity to Prompting
+We addressed the concern regarding lexical sensitivity by comparing the stability of hierarchies when the core instruction is varied.
 
 <b>(a) Llama 8B</b><br>
 <p align="center">
@@ -36,6 +41,7 @@ Across both models, similar emotions consistently cluster together, indicating r
 ---
 
 ### GoEmotions Dataset
+To address the concern about "synthetic data circularity", we replicated our experiments using the GoEmotions real-world human-annotated dataset.
 
 <b>(a) Llama 8B</b><br>
 <p align="center">
