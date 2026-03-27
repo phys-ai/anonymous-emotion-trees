@@ -3,11 +3,13 @@
 
 ### DeepSeek-R1 Distilled Models
 
-<p align="center">
 <b>(a) Llama 70B variant</b><br>
+<p align="center">
 <img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-70b_300_threshold.png" width="90%"><br><br>
+</p>
 
 <b>(b) Qwen 32B variant</b><br>
+<p align="center">
 <img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-32b_20_threshold.png" width="90%">
 </p>
 
@@ -18,11 +20,13 @@ Each node represents an emotion and is colored according to groups of emotions k
 
 ### Sensitivity to Prompting
 
-<p align="center">
 <b>(a) Llama 8B</b><br>
+<p align="center">
 <img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_llama-8b_30_threshold.png" width="90%"><br><br>
+</p>
 
 <b>(b) Llama 70B</b><br>
+<p align="center">
 <img src="figures/emotion-tree-sentiment_emotional_sentence_chatgpt4_5000_llama-70b_20_threshold.png" width="90%">
 </p>
 
@@ -33,11 +37,13 @@ Across both models, similar emotions consistently cluster together, indicating r
 
 ### GoEmotions Dataset
 
-<p align="center">
 <b>(a) Llama 8B</b><br>
+<p align="center">
 <img src="figures/emotion-tree-go_emotions_llama-8b_30_threshold.png" width="90%"><br><br>
+</p>
 
 <b>(b) Llama 70B</b><br>
+<p align="center">
 <img src="figures/emotion-tree-go_emotions_llama-70b_20_threshold.png" width="90%">
 </p>
 
