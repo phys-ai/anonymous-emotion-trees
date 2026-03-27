@@ -1,9 +1,9 @@
-# Additional Experimental Results for Rebuttal (Anonymous)
+## Additional Experimental Results for Rebuttal
 
 
 ---
 
-## DeepSeek-R1 Distilled Models
+### DeepSeek-R1 Distilled Models
 
 <p align="center">
 <b>(a) Llama 70B variant</b><br>
@@ -19,7 +19,7 @@ Each node represents an emotion and is colored according to groups of emotions k
 
 ---
 
-## Sensitivity to Prompting
+### Sensitivity to Prompting
 
 <p align="center">
 <b>(a) Llama 8B</b><br>
@@ -34,7 +34,7 @@ Sensitivity to prompting in hierarchical emotion clustering. We compare emotion 
 
 ---
 
-## GoEmotions Dataset
+### GoEmotions Dataset
 
 <p align="center">
 <b>(a) Llama 8B</b><br>
