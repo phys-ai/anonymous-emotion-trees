@@ -2,13 +2,13 @@
 This page summarizes additional empirical evidence addressing reviewer questions about real-world validity, robustness, and generalizability.
 
 ### Summary
-1. **Real-world human-annotated data:** The tree-construction procedure also recovers coherent emotion hierarchies on GoEmotions, a real-world human-annotated dataset.
-2. **Generalization to reasoning models:** The same procedure also recovers meaningful hierarchies on **DeepSeek-R1** reasoning models, showing the effect is not restricted to the original model family.
-3. **Robustness to prompting:** The recovered hierarchies remain qualitatively stable when the extraction prompt wording is changed.
+1. **Real-World Human-Annotated Data (GoEmotions):** The tree-construction procedure also recovers coherent emotion hierarchies on GoEmotions, a real-world human-annotated dataset.
+2. **Generalization to Reasoning Models (DeepSeek-R1):** The same procedure also recovers meaningful hierarchies on **DeepSeek-R1** reasoning models, showing the effect is not restricted to the original model family.
+3. **Robustness to Prompting:** The recovered hierarchies remain qualitatively stable when the extraction prompt wording is changed.
 
 ---
 
-### 1. Real-world human-annotated data
+### 1. Real-World Human-Annotated Data (GoEmotions)
 **Takeaway:** The hierarchy-construction procedure continues to recover coherent emotion structure on real-world human-annotated data.
 
 We replicated our experiments using [GoEmotions](https://github.com/google-research/google-research/tree/master/goemotions) (Demszky et al., 2020), a real-world human-annotated dataset.
@@ -27,7 +27,7 @@ Hierarchies of emotions in Llama models using the GoEmotions dataset. Each node 
 
 ---
 
-### 2. Generalization to reasoning models
+### 2. Generalization to Reasoning Models (DeepSeek-R1)
 **Takeaway:** The same procedure also recovers meaningful emotion hierarchies on DeepSeek-R1 reasoning models, indicating that the effect is not limited to the original model family.
 
 To verify that hierarchical emotion emergence is not limited to the original model family, we extend our analysis to **DeepSeek-R1** reasoning models.
@@ -46,7 +46,7 @@ Hierarchies of emotions in two **DeepSeek-R1** reasoning models, extracted using
 
 ---
 
-### 3. Robustness to prompting
+### 3. Robustness to Prompting
 **Takeaway:** The recovered hierarchies remain qualitatively stable even when the extraction prompt wording is changed.
 
 We addressed the concern regarding lexical sensitivity by comparing the stability of hierarchies when the core instruction is varied.
