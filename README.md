@@ -3,9 +3,26 @@ This section provides additional empirical evidence to address the reviewers' in
 
 ---
 
+### GoEmotions Dataset
+We replicated our experiments using real-world human-annotated dataset: [GoEmotions Dataset](https://github.com/google-research/google-research/tree/master/goemotions) (Demszky et al., 2020).
+
+<b>(a) Llama 8B</b><br>
+<p align="center">
+<img src="figures/emotion-tree-go_emotions_llama-8b_30_threshold.png" width="100%"><br><br>
+</p>
+
+<b>(b) Llama 70B</b><br>
+<p align="center">
+<img src="figures/emotion-tree-go_emotions_llama-70b_20_threshold.png" width="100%">
+</p>
+
+Hierarchies of emotions in Llama models using the GoEmotions dataset. Each node corresponds to an emotion and is colored according to groups of related emotions (as defined by the emotion wheel in Fig. 1a). The larger model, Llama 70B (b), produces deeper and more fine-grained hierarchies than the smaller Llama 8B (a), reflecting its greater representational capacity.
+
+---
+
 ### Generalizability Across Model Architectures
 
-To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extended our analysis to **DeepSeek-R1** distilled variants. 
+To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extend our analysis to reasoning models, specifically DeepSeek-R1 distilled variants. 
 
 <b>(a) Llama 70B variant</b><br>
 <p align="center">
@@ -38,19 +55,3 @@ We addressed the concern regarding lexical sensitivity by comparing the stabilit
 Sensitivity to prompting in hierarchical emotion clustering. We compare emotion trees produced when the instruction is changed from `the emotion in this sentence is` to `the sentiment in this sentence is.`
 Across both models, similar emotions consistently cluster together, indicating robustness to prompt wording. The larger model, Llama 70B (b), produces deeper and more fine-grained hierarchies than the smaller Llama 8B (a), reflecting its greater representational capacity.
 
----
-
-### GoEmotions Dataset
-We replicated our experiments using real-world human-annotated dataset: [GoEmotions Dataset](https://github.com/google-research/google-research/tree/master/goemotions) (Demszky et al., 2020).
-
-<b>(a) Llama 8B</b><br>
-<p align="center">
-<img src="figures/emotion-tree-go_emotions_llama-8b_30_threshold.png" width="100%"><br><br>
-</p>
-
-<b>(b) Llama 70B</b><br>
-<p align="center">
-<img src="figures/emotion-tree-go_emotions_llama-70b_20_threshold.png" width="100%">
-</p>
-
-Hierarchies of emotions in Llama models using the GoEmotions dataset. Each node corresponds to an emotion and is colored according to groups of related emotions (as defined by the emotion wheel in Fig. 1a). The larger model, Llama 70B (b), produces deeper and more fine-grained hierarchies than the smaller Llama 8B (a), reflecting its greater representational capacity.
