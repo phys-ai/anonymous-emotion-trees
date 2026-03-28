@@ -8,7 +8,7 @@ This page summarizes additional empirical evidence addressing reviewer questions
 
 ---
 
-### GoEmotions Dataset
+### 1. Real-world human-annotated data
 **Takeaway:** The hierarchy-construction procedure continues to recover coherent emotion structure on real-world human-annotated data.
 
 We replicated our experiments using [GoEmotions](https://github.com/google-research/google-research/tree/master/goemotions) (Demszky et al., 2020), a real-world human-annotated dataset.
@@ -27,7 +27,7 @@ Hierarchies of emotions in Llama models using the GoEmotions dataset. Each node 
 
 ---
 
-### Generalization to Reasoning Models
+### 2. Generalization to reasoning models
 **Takeaway:** The same procedure also recovers meaningful emotion hierarchies on DeepSeek-R1 reasoning models, indicating that the effect is not limited to the original model family.
 
 To verify that hierarchical emotion emergence is not limited to the original model family, we extend our analysis to **DeepSeek-R1** reasoning models.
@@ -46,7 +46,7 @@ Hierarchies of emotions in two **DeepSeek-R1** reasoning models, extracted using
 
 ---
 
-### Sensitivity to Prompting Strategies
+### 3. Robustness to prompting
 **Takeaway:** The recovered hierarchies remain qualitatively stable even when the extraction prompt wording is changed.
 
 We addressed the concern regarding lexical sensitivity by comparing the stability of hierarchies when the core instruction is varied.
