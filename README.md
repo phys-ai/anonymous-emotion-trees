@@ -24,12 +24,12 @@ Hierarchies of emotions in Llama models using the GoEmotions dataset. Each node 
 
 To verify that hierarchical emotion emergence is not architecture-specific (Llama/GPT), we extend our analysis to reasoning models, specifically DeepSeek-R1 distilled variants. 
 
-<b>(a) **DeepSeek-R1** <span style="color:gray;">Llama 70B distilled variant</span></b><br>
+<b>(a) <span>DeepSeek-R1</span> <span style="color: gray;">(Llama 70B distilled variant)</span></b><br>
 <p align="center">
 <img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-70b_300_threshold.png" width="100%"><br><br>
 </p>
 
-<b>(b) **DeepSeek-R1** <span style="color:gray;">Qwen 32B distilled variant</span></b><br>
+<b>(b) <span>DeepSeek-R1</span> <span style="color: gray;">(Qwen 32B distilled variant)</span></b><br>
 <p align="center">
 <img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-32b_20_threshold.png" width="100%">
 </p>
