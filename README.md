@@ -26,7 +26,7 @@ To verify that hierarchical emotion emergence is not architecture-specific (Llam
 
 <b>(a) <span>DeepSeek-R1</span></b> <span style="color: gray;">(Llama 70B distilled variant)</span><br>
 <p align="center">
-<img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-70b_300_threshold.png" width="125%"><br><br>
+<img src="figures/emotion-tree-emotional_sentence_chatgpt4_5000_deepseek-70b_300_threshold.png" width="130%"><br><br>
 </p>
 
 <b>(b) <span>DeepSeek-R1</span></b> <span style="color: gray;">(Qwen 32B distilled variant)</span><br>
