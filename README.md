@@ -1,10 +1,4 @@
 ## Additional Experimental Results (Rebuttal)
-This page summarizes additional empirical evidence addressing reviewer questions about real-world validity, robustness, and generalizability.
-
-### Summary
-1. **Real-World Human-Annotated Data (GoEmotions):** The tree-construction procedure also recovers coherent emotion hierarchies on GoEmotions, a real-world human-annotated dataset.
-2. **Generalization to Reasoning Models (DeepSeek-R1):** The same procedure also recovers meaningful hierarchies on **DeepSeek-R1** reasoning models, showing the effect is not restricted to the original model family.
-3. **Robustness to Prompting:** The recovered hierarchies remain qualitatively stable when the extraction prompt wording is changed.
 
 ---
 
